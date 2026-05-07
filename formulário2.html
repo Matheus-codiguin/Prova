@@ -1,0 +1,37 @@
+!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body bgcolor="">
+    <form>
+        <label>Nome: </label> <!-- usa se o "label" para indicar que naquela caixinha ele deve digitar aqui, no caso "nome" -->
+        <input type= "text"><br><br> <!-- "input" é uma caixa para o usuário inserir um "texto" comum -->
+        <label>Senha: </label>
+        <input type= "password"> <br><br> <!-- esse "password" é um "type" para inserir senha, ai as caracteres q nn mostra -->
+        <label>Comentários: </label>
+        <textarea rows= "10" cols="50" maxlength="5" ></textarea> <br><br> <!-- "rows" é o numero de linhas da caixa e "cols" é a largura da caixa, já o maxlength limita o numero de caracteres na caixa -->
+        <label>Estado: </label>
+        <select>                    <!-- o "select" serve para dar opçoes ao texto do "label" -->
+            <option>AC</option>
+            <option>AM</option>
+            <option>AP</option>
+            <option>BA</option>
+            <option>GO</option>
+            <option>MT</option>
+        </select> <br>
+        Masculino <input type="radio" name="genero"> <br> <!-- esse "radio" é o circulo de seleção -->
+        Feminino <input type="radio" name="genero" checked> <br> <!-- esse "checked" serve para ja deixar selecionado -->
+        <label>Outros: </label> 
+        <input type= "text"><br><br>
+        Preferências: <br>
+        <input type="checkbox">Jazz  <!-- "checkbox" é a caixinha quadradinha que você consegue marcar mais de uma opção -->
+        <input type="checkbox">Rock
+        <input type="checkbox">MBP <br><br>
+        <button>ENVIAR</button> <br><br>
+        <input type="color"> 
+    </form>
+</body>
+</html>
